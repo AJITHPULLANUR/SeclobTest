@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Section1container{
+    width: 100%;
+    background-color: red;
+}
+/* ..............navbar................. */
+
+.navbarofsec1{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbarsecloblogo{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarlogo{
+    width: 160px;
+    height: 60px;
+}
+.navbarbuttons{
+    width: 500px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 120px;
+    
+}
+.navbarbutton2in1{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttonofnavbars{
+    width: 90px;
+    height: 38px;
+    background-color: violet;
+    border-radius: 8px;
+    border: 0;
+    background-color:#077AC2;
+    color: white;
+    box-shadow: rgb(175, 174, 174) 1px 1px 2px 0px ;
+}
+.loginbuttonofnavbars{
+    width: 70px;
+    height: 38px;
+    background-color: violet;
+    border-radius: 10px;
+    border: 0;
+    background-color:white;
+    color: #077AC2;
+    font-weight: 400;
+    box-shadow: rgb(175, 174, 174) 1px 1px 2px 0px ;
+
+}
+
+
+
+
+/* ...............sectionsearch............................... */
+
+.SectionofSearch{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar{
+    width: 350px;
+    height: 40px;
+    background-color: white;
+    border-radius: 12px 0 0 12px;
+    outline: none;
+    border: 0;
+    background-image: url(../images/find.png);
+    background-size: 23px 23px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 60px;
+}
+.sectionsearchexplore{
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    border-radius: 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+
+}
+.buttonofexplore{
+    width: 90px;
+    height: 33px;
+    background-color: violet;
+    border-radius: 18px;
+    border: 0;
+    background-color:#077AC2;
+    color: white;
+}
+.sectionsofwork{
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.writingbackg{
+    width: 100%;
+    /* background-color: springgreen; */
+    height: 300px;
+    position: absolute;
+}
+.writing{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+
+}
+/* ............... */
+
+.groupofjobs{
+    width: 500px;
+    height: 200px;
+    /* background-color: red; */
+    /* background-color: white; */
+    margin-left: 10px;
+}
+.group1strow{
+    width: 500px;
+    height: 110px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jobsdiv{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(221, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jobsdivmain{
+    width: 100px;
+    height: 100px;
+   
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+}
+.jobimages{
+    width: 45px;
+    height: 45px;
+
+}
+
